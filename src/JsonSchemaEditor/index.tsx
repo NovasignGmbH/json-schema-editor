@@ -3,7 +3,7 @@ import { reaction } from 'mobx';
 import { observer } from 'mobx-react';
 import React, { createContext, ReactElement, useEffect, useState } from 'react';
 import Editor from './components/editor';
-import './index.less';
+import './index.css';
 import Schema from './types/Schema';
 import SchemaDescription from './types/SchemaDescription';
 
