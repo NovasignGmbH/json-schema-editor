@@ -1,11 +1,11 @@
 # JsonSchemaEditor
 
 ```shell
-yarn add @quiet-front-end/json-schema-editor-antd
+yarn add @novasign/json-schema-editor
 ```
 
 ```jsx
-import { JsonSchemaEditor } from '@quiet-front-end/json-schema-editor-antd';
+import { JsonSchemaEditor } from '@novasign/json-schema-editor';
 
 export default () => <JsonSchemaEditor />;
 ```

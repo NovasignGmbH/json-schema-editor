@@ -72,6 +72,7 @@ export const handleSchema = (schema: Schema): Schema => {
       ) {
         // @ts-ignore
         clonedSchema.properties[key] = handleSchema(
+          // @ts-ignore
           clonedSchema.properties[key],
         );
       }

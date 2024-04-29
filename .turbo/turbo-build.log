@@ -1,0 +1,35 @@
+
+> @novasign/json-schema-editor@0.3.0 build C:\Users\AliKleitMSc\Projects\novasign-portal\packages\json-schema-editor
+> father build
+
+info  - Clean output directories
+info  - Bundless for src directory to esm format
+event - Bundless src/index.ts to dist\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/editor/genson-js/index.ts to dist\JsonSchemaEditor\components\editor\genson-js\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/editor/genson-js/schema-builder.ts to dist\JsonSchemaEditor\components\editor\genson-js\schema-builder.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/editor/genson-js/schema-comparator.ts to dist\JsonSchemaEditor\components\editor\genson-js\schema-comparator.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/editor/genson-js/types.ts to dist\JsonSchemaEditor\components\editor\genson-js\types.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/editor/index.tsx to dist\JsonSchemaEditor\components\editor\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/field-input/index.tsx to dist\JsonSchemaEditor\components\field-input\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/mock-select/index.tsx to dist\JsonSchemaEditor\components\mock-select\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/quiet-editor/index.tsx to dist\JsonSchemaEditor\components\quiet-editor\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/quiet-editor/themes.ts to dist\JsonSchemaEditor\components\quiet-editor\themes.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-json/drop-plus/index.tsx to dist\JsonSchemaEditor\components\schema-json\drop-plus\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-json/index.tsx to dist\JsonSchemaEditor\components\schema-json\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-json/schema-array/index.tsx to dist\JsonSchemaEditor\components\schema-json\schema-array\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-json/schema-item/index.tsx to dist\JsonSchemaEditor\components\schema-json\schema-item\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-json/schema-object/index.tsx to dist\JsonSchemaEditor\components\schema-json\schema-object\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-other/index.tsx to dist\JsonSchemaEditor\components\schema-other\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-other/schema-array/index.tsx to dist\JsonSchemaEditor\components\schema-other\schema-array\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-other/schema-boolean/index.tsx to dist\JsonSchemaEditor\components\schema-other\schema-boolean\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-other/schema-number/index.tsx to dist\JsonSchemaEditor\components\schema-other\schema-number\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/components/schema-other/schema-string/index.tsx to dist\JsonSchemaEditor\components\schema-other\schema-string\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/constants.ts to dist\JsonSchemaEditor\constants.js (with declaration)
+event - Bundless src/JsonSchemaEditor/index.css to dist\JsonSchemaEditor\index.css
+event - Bundless src/JsonSchemaEditor/index.tsx to dist\JsonSchemaEditor\index.js (with declaration)
+event - Bundless src/JsonSchemaEditor/types/Open.ts to dist\JsonSchemaEditor\types\Open.js (with declaration)
+event - Bundless src/JsonSchemaEditor/types/Schema.ts to dist\JsonSchemaEditor\types\Schema.js (with declaration)
+event - Bundless src/JsonSchemaEditor/types/SchemaDescription.ts to dist\JsonSchemaEditor\types\SchemaDescription.js (with declaration)
+event - Bundless src/JsonSchemaEditor/utils/SchemaUtils.ts to dist\JsonSchemaEditor\utils\SchemaUtils.js (with declaration)
+event - Generate declaration files...
+event - Transformed successfully in 5075 ms (27 files)
