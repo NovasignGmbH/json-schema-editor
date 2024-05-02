@@ -203,12 +203,12 @@ export function unwrapSchemas(schemas: Schema[]): Schema[] {
 }
 
 export function wrapAnyOfSchema(schema: Schema): Schema {
-  const simpleSchemas = [];
-  const complexSchemas = [];
+  const simpleSchemas: any[] = [];
+  const complexSchemas: any[] = [];
   // @ts-ignore
   for (const subSchema of schema.anyOf) {
     if (Array.isArray(subSchema.type)) {
-      simpleSchemas.push(...subSchema.type);
+      simpleSchemas.push(...(subSchema.type as ValueType[]));
     } else if (isSimpleSchema(subSchema)) {
       simpleSchemas.push((subSchema as Schema).type);
     } else {
@@ -219,7 +219,7 @@ export function wrapAnyOfSchema(schema: Schema): Schema {
     // @ts-ignore
     return { type: simpleSchemas };
   }
-  const anyOf = [];
+  const anyOf: any[] = [];
   if (simpleSchemas.length > 0) {
     anyOf.push({
       type: simpleSchemas.length > 1 ? simpleSchemas : simpleSchemas[0],

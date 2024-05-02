@@ -11,17 +11,17 @@ import {
   Checkbox,
   Col,
   Input,
-  message,
   Modal,
   Row,
   Select,
   Tabs,
   Tooltip,
+  message,
 } from 'antd';
 import { observer } from 'mobx-react';
 import React, {
-  createContext,
   ReactElement,
+  createContext,
   useContext,
   useState,
 } from 'react';
@@ -98,7 +98,7 @@ const Editor = observer((props: EditorProp): ReactElement => {
       if (!jsonSchemaData) {
         return;
       }
-      let jsonObject = null;
+      let jsonObject: any = null;
       try {
         jsonObject = JSON.parse(jsonSchemaData);
       } catch (ex) {
