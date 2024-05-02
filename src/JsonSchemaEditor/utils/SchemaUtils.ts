@@ -150,7 +150,7 @@ function handleObject(properties: Record<string, Schema>, checked: boolean) {
   const clonedProperties = _.cloneDeep(properties);
   for (const key in clonedProperties) {
     if (
-      clonedProperties[key].type === 'array' ||
+      (clonedProperties[key] && clonedProperties[key].type === 'array') ||
       clonedProperties[key].type === 'object'
     )
       clonedProperties[key] = handleSchemaRequired(

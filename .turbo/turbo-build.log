@@ -32,4 +32,4 @@ event - Bundless src/JsonSchemaEditor/types/Schema.ts to dist\JsonSchemaEditor\t
 event - Bundless src/JsonSchemaEditor/types/SchemaDescription.ts to dist\JsonSchemaEditor\types\SchemaDescription.js (with declaration)
 event - Bundless src/JsonSchemaEditor/utils/SchemaUtils.ts to dist\JsonSchemaEditor\utils\SchemaUtils.js (with declaration)
 event - Generate declaration files...
-event - Transformed successfully in 3915 ms (27 files)
+event - Transformed successfully in 3393 ms (27 files)
